@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.table-container{
+    position: relative;
+    top: 50px;
+    display: inline-block;
+}
+
+table, th, tr, td{
+    border: 1px black solid;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+td{
+    padding: 0px 5px;
+}
+
+td:nth-child(4){
+    text-align: right;
+}
+
+a{
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+    text-decoration: none;
+}
